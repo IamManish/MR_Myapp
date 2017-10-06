@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <MR_Myapp>
+      <version>0.1.0</version>
+    </MR_Myapp>
+  </modules>
+  <global>
+    <helpers>
+      <myapp>
+        <class>MR_Myapp_Helper</class>
+      </myapp>
+    </helpers>
+	<global>
+        <models>
+            <myapp>
+                <class>MR_Myapp_Model</class>
+            </myapp>
+        </models>
+    </global>
+  </global>
+</config> 
