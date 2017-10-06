@@ -3,6 +3,7 @@ Create a custom Session Namespace with a Model in Magento
 
 The Mage_Core_Model_Session_Abstract model already contains everything we need. Access session variables using the magic get/set methods.
 
+
 // Set the "foo" variable
 Mage::getSingleton("myapp/session")->setFoo("bar");
 
